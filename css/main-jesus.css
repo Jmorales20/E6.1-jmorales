@@ -1,0 +1,149 @@
+body {
+  background-color:#F3FDF3;
+  }
+
+* {
+   padding: 0;
+  }
+
+header {
+   width: 100%;
+   height: 150px;
+  }
+
+nav > ul{
+    display: table;
+    width: 100%;
+  }
+
+nav > ul li {
+    display: table-cell;
+  }
+
+nav > ul li a{
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.etiquetas {
+  background: #0B610B;
+}
+.estilos {
+  background: #04B404;
+}
+.tabla {
+  background: #2EFE2E;
+}
+
+h1 {
+margin-top: -40px;
+color: #0B3B0B;
+text-align: center;
+font-size: 50px;
+}
+
+h2 {
+  color: #315031;
+  font-size: 30px;
+}
+
+h3 {
+  color: #436F43;
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-top: thick double #000
+}
+th {
+  font-weight: normal;
+}
+
+.titulo-tabla {
+  font-weight: bold;
+  font-size: 120%;
+}
+table, th, td {
+  border: 2px solid;
+  border-collapse: separate;
+}
+.background-color {
+	background-color: #0B3B0B;
+}
+
+.background-image {
+	background-image: url(../img/smite.jpg);
+	background-size: 100%;
+}
+
+.background-repeat {
+  background-image: url(../img/smite.jpg);
+	background-size: 100%;
+  background-repeat: round;
+}
+
+.font-size {
+	font-size: medium;
+}
+
+.font-weight {
+	font-weight: bold;
+}
+
+.font-family {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.font-align {
+	text-align: center;
+}
+.text-transform{
+	text-transform: capitalize;
+}
+
+.border{
+	border-color: green;
+}
+
+.list-style-type{
+	list-style-type: none;
+}
+
+.textdecoration{
+	text-decoration: underline;
+}
+
+.padding  {
+	padding-top: 15px;
+}
+
+.margin{
+	margin-bottom: auto;
+}
+
+.primero,.segundo {
+
+  display:none;
+
+  padding:5px;
+
+  border:1px solid #ccc;
+
+  background-color:#fff;
+
+  width:300px;
+
+}
+
+#primero:hover .primero {
+
+  display:block;
+}
